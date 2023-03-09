@@ -1,0 +1,345 @@
+.main-container-one-section{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    gap:30px;
+}
+.main-container-one-section h1{
+    font-size: 45px;
+}
+.prospector-button{
+ width: 150px;
+ height: 40px;
+ font-size: 18px;
+ color: #11BAD3;
+ background-color: #BFF1F8;
+ border: none;
+ border-radius: 5px;
+}
+.two-buttons-main-div{
+    display: flex;
+    gap:20px;
+}
+.main-half-page-div-one{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.main-half-page-div-two{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    background-color: #fff;
+    background: linear-gradient(to right, #fff 10%, #11BAD3  70%);
+}
+.navbar-main-one-section{
+    display: flex;
+    height: 40px;
+    gap:20px;
+    padding: 10px 10px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+}
+.search-bar-div{
+    display: flex;
+    gap:20px;
+    height: 25px;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 5px;
+    font-size: 12px;
+}
+.main-container-two-section{
+    display: flex;
+    background-color: #fff;
+    height: 350px;
+    margin-top: 70px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+    position: relative;
+}
+.main-container-two-div-section{
+    display: flex;
+    justify-content: end; 
+    align-items: center;
+}
+.navbar-main-two-section ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50px;
+    margin: auto;
+    height: 350px;
+    gap:10px;
+    padding: 10px 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+}
+.table-heading-tr {
+    display: flex;
+    gap:45px;
+}
+.img-tag-data{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.td-text-center-td{
+    display: flex;
+    gap:10px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+} 
+.tr-tag-main-tr{
+    display: flex;
+    font-size: 10px;
+    gap:20px
+}
+.th-text-center-th{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap:10px;
+} 
+.table-content-main-div{
+    width: 550px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+    padding: 10px 10px;
+}
+.div-ul-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.card-two-section{
+    display: flex;
+    gap:30px;
+    margin-top: 20px;
+}
+.card-two-section-single{
+    display: flex;
+    gap:30px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+}
+.icon-and-name-ul-div{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.infra-main-container ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border: 1px solid grey;
+}
+.main-container-first-div{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #fff 10%, #11BAD3  70%);
+}
+.main-container-second-div{
+    width: 50%;
+    height: 500px;
+}
+.card-button-section{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    padding:10px;
+}
+.card-container-first ul{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+.bar-bg-color{
+    width: 70px;
+    height: 5px;
+    background-color: #11BAD3;
+    border-radius: 10px;
+}
+.main-container-first-content{
+    background-color: #fff;
+     width: 560px;
+     padding: 15px;
+     padding-bottom: 30px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+}
+.card-long-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 590px;
+}
+
+.checkbox-container{
+    display:flex ;
+    gap:30px;
+    align-items: center;
+}
+.bg-color-grey{
+    width: 250px;
+    height: 15px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.card-long-checkbox-containers ul{
+    display: flex;
+    margin-top: 20px;
+    gap:20px;
+    flex-direction: column;
+}
+.dot-plus-name{
+    display: flex;
+    gap:10px;
+}
+.dot-ul-icon-container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    width: 450px;
+}
+.dot-ul-icon-container img{
+    width: 60px;
+    height: 60px;
+}
+.main-container-second-content{
+    display: flex;
+    justify-content: center;
+}
+.three-main-container-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 40px;
+}
+.popup-single-div-colr{
+    display: flex;
+    gap:10px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.popup-sub-icons-div{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    color: #11BAD3;
+}
+.popup-section-container{
+    position: absolute;
+    background-color: #fff;
+    top:20px;
+    right: -20px;
+    width: 200px;
+    height: 400px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.book-button-navbar:hover{
+    background-color: #11BAD3;
+    color: #fff;
+}
+
+
+
+
+@media(max-width:1030px){
+
+.main-container-two-div-section{
+    display: flex;
+    flex-direction: column;
+}    
+.main-container-two-section{
+    width: 100%;
+    overflow-y: scroll;
+}
+.main-half-page-div-two{
+    width: 100%;
+}
+.table-content-main-div{
+    width: 100%;
+}
+.card-two-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.main-container-one-section h1{
+    font-size: 25px;
+}
+.two-buttons-main-div{
+    /* display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; */
+    
+}
+.infra-main-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.main-container-two-div-section{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.three-main-container-section{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top: 180px;
+    padding: 10px;
+}
+.main-container-first-content{
+width: 100%;
+}
+.main-container-first-div {
+    width: 100%;
+}
+.card-container-first ul{
+    display: flex;
+    gap:0px;
+}
+.card-button-section{
+    padding: 10px 0px;
+}
+.card-long-container{
+    width: 100%;
+}
+.bg-color-grey{
+    width: 20%;
+}
+.dot-ul-icon-container{
+ width: 100%;
+
+}
+.three-main-container-two{
+    width: 100%;
+}
+.start-button-navbar{
+  width: 110px;
+}
+.book-button-navbar{
+    width: 110px;
+}
+}

@@ -1,0 +1,132 @@
+.logo-name-div h1 span{
+    font-weight: 900;
+    color: black;
+}
+.logo-name-div h1{
+    color: grey;
+    font-weight: 500;
+}
+.main-one-container-bar ul{
+ display: flex;
+ gap:17px;
+ align-items: center;
+}
+.main-one-container-bar ul li{
+    cursor: pointer;
+}
+.main-one-container-bar ul li:hover{
+    color: black;
+}
+.p-tag-main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:5px;
+    position: relative;
+}
+.main-two-container-bar ul{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.main-two-container-bar ul li{
+    cursor: pointer;
+}
+.book-button-navbar{
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 1px solid #11BAD3;
+    color: #11BAD3;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.start-button-navbar{
+    padding: 10px 30px;
+    background-color: #11BAD3;
+    border: 1px solid #11BAD3;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.main-two-section-bar{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.main-container-navbar{
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    font-weight: 500;
+    padding: 20px;
+}
+.fa-bars-icon{
+    display: none;
+}
+.over-table-div{
+    display: none; 
+    background-color: #11BAD3;
+}
+.p-tag-main-container:hover .over-table-div{
+    display: block;
+    background-color: aqua;
+}
+.img-p-tag-container{
+    display: flex;
+    gap:20px;
+}
+
+
+@media(max-width:1030px){
+.fa-bars-icon{
+    display: block;
+    font-size: 25px;
+    padding: 3px;
+    color: #fff;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    justify-content: center;
+    background-color: #11BAD3;
+}
+.main-two-section-bar{
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    width: 100%;
+    background-color: #fff;
+}
+.main-two-section-bar.active{
+    display: block;
+}
+.main-one-container-bar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-two-container-bar ul{
+   margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-container-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap:10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+}
